@@ -79,7 +79,7 @@ Walkthrough:
       1. cat /home/aleks/.local/share/pswm/pswm
       2. Download pswm and Decrypt it locally using "https://github.com/seriotonctf/pswm-decryptor".
           python pswm-decrypt.py -f pswm -w /usr/share/wordlists/rockyou.txt
-      3. ssh aleks@{rhost} with the dexcrypted password "{aleks_pass}".
+      3. ssh aleks@{rhost} with the decrypted password "{aleks_pass}".
       4. sudo -l
       5. sudo -i
       
