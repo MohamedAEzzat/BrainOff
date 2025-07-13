@@ -69,6 +69,12 @@ Walkthrough:
       2. Do parameter injection via POST parameters.
       3. Run netcat listener and get the shell.
       
+  - TTY spawning:
+      1. script /dev/null -c /bin/bash
+      2. ctrl + z
+      3. stty raw -echo; fg
+      4. export TERM=xterm
+      
   - PrivEsc:
       1. cat /home/aleks/.local/share/pswm/pswm
       2. Download pswm and Decrypt it locally using "https://github.com/seriotonctf/pswm-decryptor".
